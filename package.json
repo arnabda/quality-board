@@ -1,0 +1,36 @@
+{
+    "name": "quality-board",
+    "version": "0.0.0",
+    "description": "A Jira dashboard built with NodeJS and AngularJS",
+    "main": "index.js",
+    "scripts": {
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arnabda/quality-board.git"
+    },
+    "keywords": [
+        "Jira",
+        "Dashboard",
+        "NodeJS",
+        "AngularJS"
+    ],
+    "author": "NRIFT",
+    "license": "GPLv2",
+    "bugs": {
+        "url": "https://github.com/arnabda/quality-board/issues"
+    },
+    "homepage": "https://github.com/arnabda/quality-board",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "grunt-contrib-connect": "^0.8.0",
+        "grunt-contrib-copy": "^0.5.0",
+        "grunt-contrib-jshint": "^0.10.0",
+        "grunt-contrib-uglify": "^0.5.1",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-contrib-concat": "^0.5.0",
+        "grunt-newer": "^0.7.0"
+    }
+}

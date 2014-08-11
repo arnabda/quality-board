@@ -1,0 +1,31 @@
+{
+    "name": "quality-board",
+    "version": "0.0.0",
+    "homepage": "https://github.com/arnabda/quality-board",
+    "description": "A Jira dashboard built with NodeJS and AngularJS",
+    "main": "index.html",
+    "keywords": [
+        "Jira",
+        "Dashboard",
+        "NodeJS",
+        "AngularJS"
+    ],
+    "authors": [
+        "NRIFT"
+    ],
+    "license": "GPLv2",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "src/client/thirdparty",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "~1.2.21",
+        "jquery": "~2.1.1",
+        "bootstrap": "~3.2.0"
+    }
+}
